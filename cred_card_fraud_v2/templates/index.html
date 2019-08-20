@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class='login'>
+        <h1>Predict if a Transaction is Legitamate or Fraudulent</h1>
+
+        <form action="{{ url_for('predict')}}" name="predictions" method="post" >
+            <input type='text' name='Time' placeholder='Time'/>
+            <input type='text' name='V1' placeholder='V-value'/>
+            <input type='text' name='V2' placeholder='V-value'/>
+            <input type='text' name='V3' placeholder='V-value'/>
+            <input type='text' name='V4' placeholder='V-value'/>
+            <input type='text' name='V5' placeholder='V-value'/>
+            <input type='text' name='V6' placeholder='V-value'/>
+            <input type='text' name='V7' placeholder='V-value'/>
+            <input type='text' name='V8' placeholder='V-value'/>
+            <input type='text' name='V9' placeholder='V-value'/>
+            <input type='text' name='V10' placeholder = 'V-value'/>
+            <input type='text' name='V11' placeholder = 'V-value'/>
+            <input type='text' name='V12' placeholder = 'V-value'/>
+            <input type='text' name='V13' placeholder = 'V-value'/>
+            <input type='text' name='V14' placeholder = 'V-value'/>
+            <input type='text' name='V15' placeholder = 'V-value'/>
+            <input type='text' name='V16' placeholder = 'V-value'/>
+            <input type='text' name='V17' placeholder = 'V-value'/>
+            <input type='text' name='V18' placeholder = 'V-value'/>
+            <input type='text' name='V19' placeholder = 'V-value'/>
+            <input type='text' name='V20' placeholder = 'V-value'/>
+            <input type='text' name='V21' placeholder = 'V-value'/>
+            <input type='text' name='V22' placeholder = 'V-value'/>
+            <input type='text' name='V23' placeholder = 'V-value'/>
+            <input type='text' name='V24' placeholder = 'V-value'/>
+            <input type='text' name='V25' placeholder = 'V-value'/>
+            <input type='text' name='V26' placeholder = 'V-value'/>
+            <input type='text' name='V27' placeholder = 'V-value'/>
+            <input type='text' name='V28' placeholder = 'V-value'/>
+            <input type='text' name='Amount' placeholder='Amount'/>    
+            
+            <button type='submit' class="btn btn-primary btn-block btn-large" name='Predict'>Predict</button>
+
+
+
+        </form>
+        <br>
+        <br>
+        {{  prediction_text }}
+
+    </div>
+    
+</body>
+</html>
