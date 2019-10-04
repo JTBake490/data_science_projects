@@ -49,3 +49,7 @@ To create the Postgresql database use:
 Replace 'relative path' with your actual relative path.
 
 To change the quieries simply change the number of countries/devices or change the countries/devices.
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Edit: To run the quieries in the pyscopg2 notebook replace the user variable to the appropriate user and execute the cells. To change the quieries simple change the countries/devices within the quieries.
